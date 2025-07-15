@@ -14,4 +14,5 @@ llama_add_compile_flags()
 
 if (EMSCRIPTEN)
 else()
+    add_subdirectory(mtmd)
 endif()
